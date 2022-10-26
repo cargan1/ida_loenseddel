@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         gray: "rgb(242, 242, 242)",
-        blue: "rgb(15, 69, 204)",
+        softblue: "rgb(15, 69, 204)",
         info: "rgb(15, 69, 204, 0.05)",
         active: "rgb(15, 69, 204, 0.25)",
         hover: "rgb(15, 69, 204, 0.15)",

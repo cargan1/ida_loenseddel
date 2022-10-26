@@ -41,28 +41,10 @@
 				</svg>
 			</button>
 		</div>
-		<!-- <h1 class="text-blue uppercase text-5xl text-center font-bold">
-				Tjek din lønseddel
-			</h1>
-			<h2 class="font-medium text-center mt-2">Før du starter</h2>
-			<p class="leading-7">
-				Det er en rigtig god ide, at du husker at tjekke din lønseddel. Det kan
-				nemlig ske, at arbejdsgiver har lavet en fejl på din lønseddel, som kan
-				betyde, at du gå glip af nogle penge. Vi har derfor lavet det her
-				værktøj, så du bedre kan forstå dine egen lønseddel, og spotte
-				eventuelle fejl. Lønsedler kan se vidt forskelligt ud, så dette er blot
-				eksempler på hvordan den kunne se ud, og hvilke poster den kan
-				indeholde. Hvis du mener der er fejl, eller du er i tvivl om noget i
-				forhold til din lønseddel, så vil vi anbefale, at du tager fat i din
-				arbejdsgiver (lønkontoret). De vil nemlig have indgående kendskab til
-				lige netop din lønseddel. Opstår der derimod tvist omkring din
-				lønseddel, så er du meget velkommen til at sende den ind til IDA, og så
-				vil vores dygtige juridiske rådgivere stå klar til at hjælpe dig
-			</p> -->
 		<h2 class="font-medium text-center my-2">Vælg lønseddel type</h2>
 		<div class="relative items-center max-w-sm dropdown-triangle mx-auto z-20">
 			<select name="paycheck-type" id="paycheck-type"
-				class="appearance-none border-none cursor-pointer w-full h-10 font-bold rounded-md px-3 text-xl bg-blue text-white shadow-sm"
+				class="appearance-none border-none cursor-pointer w-full h-10 font-bold rounded-md px-3 text-xl bg-softblue text-white shadow-sm"
 				data-id="select-type">
 				<option value="privat" selected>Privat</option>
 				<option value="staten">Staten</option>
@@ -2069,10 +2051,10 @@
 				</div>
 				<!-- KMD Paycheck - 2 End -->
 				<aside data-id="info-box"
-					class="absolute bg-blue text-white rounded-lg sm:right-[8%] xl:-right-[20%] sm:left-auto top-0 z-10 p-4 md:max-w-sm transition-all duration-500 shadow-md left-0 right-0 hidden">
+					class="absolute bg-softblue text-white rounded-lg sm:right-[8%] xl:-right-[20%] sm:left-auto top-0 z-10 p-[1rem] md:max-w-sm transition-all duration-500 shadow-md left-0 right-0 hidden">
 					<div class="relative flex flex-col">
 						<!-- Arrow -->
-						<div class="w-0 h-0 border-l-[20px] border-r-[20px] border-b-[20px] border-solid border-x-transparent border-b-blue absolute top-[calc(20px_*_1.75_*_-1)] left-[10%]"
+						<div class="w-0 h-0 border-l-[20px] border-r-[20px] border-b-[20px] border-solid border-x-transparent border-b-softblue absolute top-[calc(20px_*_1.75_*_-1)] left-[10%]"
 							data-id="info-arrow"></div>
 						<!-- Close Button -->
 						<button type="button"
@@ -2087,11 +2069,12 @@
 						<!-- Infobox Header -->
 						<div class="flex flex-wrap items-center">
 							<h2 data-id="info-header"
-								class="font-bold text-sm sm:text-base md:text-lg pr-2 !leading-none">
+								class="font-bold text-white text-sm sm:text-base md:text-lg pr-2 !leading-none">
 							</h2>
 							<!-- Alt Lang Header -->
 							<h3 data-id="info-header-alt"
-								class="font-medium opacity-50 text-xs sm:text-sm md:text-base !leading-none"></h3>
+								class="font-medium text-white opacity-50 text-xs sm:text-sm md:text-base !leading-none">
+							</h3>
 						</div>
 						<!-- Infobox Text -->
 						<p data-id="info-text"
@@ -2123,7 +2106,7 @@
 				<p>
 					Hvis du ønsker en detaljeret gennemgang af alle elementerne på
 					lønsedlen, så kan du finde det via følgende
-					<a class="underline text-blue"
+					<a class="underline text-softblue"
 						href="https://www.silkeborgdata.dk/sites/default/files/files/sd.dk/vejledning_loenseddel.pdf"
 						target="_blank" rel="nofollow">vejledning</a>
 					fra Silkeborg Data.
