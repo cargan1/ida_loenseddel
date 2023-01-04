@@ -94,3 +94,7 @@
     @apply px-0;
   }
 }
+
+.blaa-baggrund {
+  background: blue !important;
+}
